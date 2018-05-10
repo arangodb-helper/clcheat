@@ -1,0 +1,9 @@
+#!/usr/bin/fish
+set -l i 0
+for a in $argv
+  echo "$i:" $a
+  set i (math $i + 1)
+end
+#env
+sleep 3
+echo Done
