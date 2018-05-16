@@ -52,7 +52,7 @@ func main() {
 		os.Exit(1)
 	}
 	dir := filepath.Dir(abs)
-	newPath := filepath.Join(dir, "clorig.exe")
+	newPath := filepath.Join(dir, "clcache.exe")
 
 	fmt.Fprintf(out, "Actual executable to be started: %s\n", newPath)
 
